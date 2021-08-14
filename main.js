@@ -4,6 +4,7 @@ const currentPrice = document.querySelector("#current-price");
 const submitBtn = document.querySelector("#submit-btn");
 const outputE1 = document.querySelector("#output");
 const mainBackground = document.querySelector("#output-img");
+mainBackground.src = './Images/stock.jpg';
 
 function calculateProfitAndLoss(initial,quantity,current){
     if(initial > current){
