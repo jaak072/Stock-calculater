@@ -1,0 +1,106 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    background-color: blueviolet;
+    height: 10vh;
+    padding: 10px;
+}
+nav h1{
+    color: white;
+    font-size: xx-large;
+}
+
+main{
+    padding-top: 30px;
+    height: 30vh;
+}
+
+label{
+    display: block;
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
+    color: rgb(149, 17, 236);
+    font-weight: bolder;
+}
+input{
+    font-size: 1.2rem;
+    padding: 7px;
+}
+
+button{
+    padding: 10px 30px;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bolder;
+}
+.output-section{
+    height: 42vh;
+}
+#output{
+    margin-top: 30px ;
+    text-align: center;
+    font-size: 1.6rem;
+    
+}
+
+#output-img{
+    margin-top: 10px;
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 10px #8888;
+}
+
+.footer{
+    height: 15vh;
+    padding: 10px;
+    background-color: blueviolet; 
+    color: #fff;  
+}
+#footer-contain{
+    width: 80%;
+    margin: auto;
+    color: rgb(215, 219, 223);
+}
+.footer h6{
+    font-size: larger;
+    margin-bottom: 0;
+}
+
+.text-justify{
+    font-style: oblique;
+    
+    margin-top: 2px;
+    font-size: unset;
+}
+
+.copyright-text{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.copyright-text a{
+    text-decoration: none;
+    color: yellow;
+}
+#social-link{
+    text-align: center;
+}
+.social-link{
+    list-style: none;
+    max-width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-link li i{
+    text-shadow: 1px 1px 1px rgb(0, 60, 255);
+    color: #fff;
+}
